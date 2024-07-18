@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+
+    <style>
+        div{
+            color: rgb(130, 64, 206);
+        }
+    </style>
+
+</head>
+<body>
+    <form>  
+        <fieldset style="border-radius: 10px; text-align: center; background-color: aqua; margin: 6em;">
+            <legend style="color: rgb(255, 0, 119);"><h2>Sign_up page</h2></legend>
+      
+<div>
+        <label for="uname">Username:</label>
+        <input type="text" id="uname" name="user">
+<br><br>
+        <label for="ps">Password:</label>
+        <input type="password" id="ps" name="pass" pattern="(?=.*\d)(?=.*[A-Z])(?=.*[a-z]).{5,}" title="must contain at least 1 no, 1 upper case and 1 lower case a and more than 8 char">
+                                                            
+        <br><br>
+
+        <label for="mi">Email:</label>
+        <input type="email" id="mi" name="mailId">
+        <br><br>
+          
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone" name="number" pattern="[0-9]{10}"><br><br>
+
+        <label for="ss">Otp:</label>
+        <input type="tel" id="ss" name="code" maxlength="4">
+<br><br>
+        <label for="db">Date_of_birth:</label>
+        <input type="date" id="db" name="dob" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}">
+        <br><br>
+        
+        <label for="sa">Html</label>
+        <input type="radio" name="enrolled" id="sa" value="html">
+
+        <label for="se">Css</label>
+        <input type="radio" name="enrolled" id="se" value="Css">
+        <label for="sq">JavaScript</label>
+        <input type="radio" name="enrolled" id="sq" value="JavaScript">
+
+        <br><br>
+          
+        <input type="checkbox" id="sr" name="T&C" value="agree">
+        <label for="sr">agree</label> <br><br>
+
+        <input type="submit" value="submit" style="border-radius:7px; border-color: rgb(150, 103, 226); font-weight: 500; font-size: large;">
+
+        
+    </div>
+    </fieldset>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign_up</title>
+    <style>
+        div{
+            background-color: aquamarine;
+            border: solid;
+            border-radius: 10px;
+            border-color: orange;
+            text-align: center;
+            width: 30%;
+            margin-left: 30%;
+            margin-top: 5%;
+        }
+     </style>
+</head>
+
+<body>
+    <div id="box">
+    <form>
+        <h1>Sign up</h1>
+        <input type="text" name="username" placeholder="username" required autofocus><br><br>
+
+        <input type="email" name="email" placeholder="fake@gmail.com" required><br><br>
+
+        <input type="tel" name="phone" placeholder="8979868564" required minlength="10" maxlength="10"><br><br>
+
+        <input type="tel" name="code" placeholder="otp" required  maxlength="4"><br><br>
+
+        <input type="password" name="password" placeholder="password" required maxlength="6"><br><br>
+
+        <input type="password" name="password" placeholder="confirm password" required maxlength="6"><br><br>
+
+        <input style="border-radius: 7px; font:icon; background-color: grey;" type="submit" value="sign up" formaction="login.html"><br><br>
+
+        already had account? <a href="login.html">login</a><br><br>
+    </form>
+</div>
+</body>
+</html>
